@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+a, button {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#header-home, #main-home, #footer-home {
+  background-color: #141414;
+  color: white;
+}
+
+#header-home .navbar-brand img {
+  width: 100px;
+}
+#header-home .navbar-toggler {
+  color: transparent;
+}
+#header-home .on-click:active {
+  border: none;
+  box-shadow: 0px 0px 13px 10px #000000;
+}
+#header-home button:enabled {
+  border: none;
+}
+#header-home .nav-link {
+  filter: brightness(50%);
+}
+#header-home .nav-link:hover {
+  filter: brightness(100%);
+}
+#header-home .nav-link.active {
+  filter: brightness(100%);
+}
+
+#profile #profile-image {
+  width: 50px;
+}
+
+.dropstart .dropdown-toggle::before {
+  display: none;
+}
+
+#search-bar {
+  margin-top: -5px;
+}
+
+@media screen and (min-width: 992px) {
+  #navbarSupportedContent {
+    border-bottom: none;
+  }
+}
+#genres {
+  height: 35px;
+  width: 100px;
+}
+
+#title {
+  max-width: 235px;
+}
+
+#select-Genres {
+  width: 150px;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+  filter: brightness(70%);
+}
+.carousel-inner .carousel-item img:hover {
+  transform: scale(1.2);
+  filter: brightness(100%);
+}
+
+button.carousel-control-prev,
+button.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.212);
+  color: white;
+  width: 80px;
+  height: 98.5%;
+}
+@media screen and (min-width: 1200px) {
+  button.carousel-control-prev,
+  button.carousel-control-next {
+    height: 96%;
+  }
+}
+
+#footer-home .socials-icon {
+  font-size: 1.4em;
+}
+#footer-home .footer-link {
+  text-decoration: none;
+}
+#footer-home p {
+  font-size: 0.6em;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+}
+
+#header-manage-profile {
+  background: rgb(20, 20, 20);
+  background: linear-gradient(0deg, rgb(20, 20, 20) 21%, rgb(0, 0, 0) 100%);
+}
+#header-manage-profile .navbar-brand img {
+  width: 100px;
+}
+
+#main-manage-profile h1 {
+  font-size: 3.5em;
+}
+@media screen and (min-width: 600px) {
+  #main-manage-profile .container {
+    width: 600px;
+  }
+}
+#main-manage-profile #profile-image {
+  width: 120px;
+}
+#main-manage-profile #change-name {
+  background-color: #666666;
+  color: white;
+  width: 90%;
+  height: 35px;
+  border: none;
+}
+#main-manage-profile #change-language {
+  width: 150px;
+  height: 35px;
+  font-size: 13px;
+}
+#main-manage-profile #maturity-button {
+  color: white;
+  background-color: #434343;
+  border-radius: 0px;
+}
+#main-manage-profile #maturity-button:hover {
+  color: white;
+  border-color: white;
+}
+#main-manage-profile #maturity-edit-button, #main-manage-profile #final-buttons button {
+  letter-spacing: 3px;
+  color: #666666;
+  border: 1px solid #666666;
+}
+#main-manage-profile #maturity-edit-button:hover, #main-manage-profile #final-buttons button:hover {
+  color: white;
+  border-color: white;
+}
+#main-manage-profile .form-check:hover {
+  cursor: pointer;
+}
+#main-manage-profile .form-check label {
+  line-height: 39px;
+  font-size: 0.8em;
+}
+#main-manage-profile .form-check label:hover {
+  cursor: pointer;
+}
+#main-manage-profile .form-check input {
+  width: 30px;
+  height: 30px;
+}
+#main-manage-profile .form-check input:hover {
+  cursor: pointer;
+}
+#main-manage-profile #final-buttons button {
+  height: 35px;
+}
+
+h6, p {
+  color: #666666;
+}
+
+#main-settings {
+  background-color: white;
+  color: black;
+}
+
+#main-settings #cancel-membership {
+  background-color: #E2E2E2;
+  font-size: 0.8em;
+}
+#main-settings #image-profile {
+  width: 50px;
+}
+#main-settings #blank-space {
+  height: 50px;
+}/*# sourceMappingURL=style.css.map */

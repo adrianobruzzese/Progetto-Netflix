@@ -1,0 +1,88 @@
+body {
+  background-color: #141414;
+  color: white;
+}
+
+#header-manage-profile {
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 1) 21%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  .navbar-brand img {
+    width: 100px;
+  }
+}
+
+#main-manage-profile {
+  h1 {
+    font-size: 3.5em;
+  }
+
+  @media screen and (min-width: 600px) {
+    .container {
+      width: 600px;
+    }
+  }
+  #profile-image {
+    width: 120px;
+  }
+
+  #change-name {
+    background-color: #666666;
+    color: white;
+    width: 90%;
+    height: 35px;
+    border: none;
+  }
+
+  #change-language {
+    width: 150px;
+    height: 35px;
+    font-size: 13px;
+  }
+  #maturity-button {
+    color: white;
+    background-color: #434343;
+    border-radius: 0px;
+    &:hover {
+      color: white;
+      border-color: white;
+    }
+  }
+  #maturity-edit-button {
+    letter-spacing: 3px;
+    color: #666666;
+    border: 1px solid #666666;
+    &:hover {
+      color: white;
+      border-color: white;
+    }
+  }
+
+  .form-check {
+    &:hover {
+      cursor: pointer;
+    }
+    label {
+      line-height: 39px;
+      font-size: 0.8em;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    input {
+      width: 30px;
+      height: 30px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  #final-buttons button {
+    @extend #maturity-edit-button;
+    height: 35px;
+  }
+}
